@@ -8,8 +8,7 @@ function switchThumb (buttonArray) {
         
         button.addEventListener("click", function() {  
 
-            event.preventDefault();
-            
+            event.preventDefault();            
             if (imgThumb.src.includes("unlike")) {
                 imgThumb.src = "./img/miniature_like.png"
             }
